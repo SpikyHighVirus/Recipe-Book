@@ -26,8 +26,4 @@ To get a local copy of the Recipe Book project running on your machine, follow t
 
 - A web browser (Chrome, Firefox, etc.)
 
-### Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/recipe-book.git
