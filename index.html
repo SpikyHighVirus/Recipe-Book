@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Book</h1>
+        
+        <!-- Add Recipe Form -->
+        <div class="add-recipe">
+            <input type="text" id="recipe-name" placeholder="Recipe name" required>
+            <textarea id="recipe-ingredients" placeholder="Ingredients (comma-separated)" required></textarea>
+            <textarea id="recipe-instructions" placeholder="Instructions" required></textarea>
+            <input type="text" id="recipe-time" placeholder="Preparation Time (e.g., 30 mins)" required>
+            <select id="recipe-difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button id="add-recipe-btn">Add Recipe</button>
+        </div>
+
+        <!-- Recipe List -->
+        <ul id="recipe-list"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
